@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4 widget footer-widget">
-                <a class="footer-logo" href="index.html"><img src="images/logo1.png" alt="Homely" /></a>
+                <a class="footer-logo" href="index.php"><img src="images/logo1.png" alt="Homely" /></a>
                 <p>Clearing Obstacles From Your PAth To Your Home</p>
                 <div class="divider"></div>
                 <ul class="social-icons circle">

@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="Homely - Responsive Real Estate Template">
-  <meta name="author" content="Rype Creative [Chris Gipple]">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homely | A real estate theme</title>
-
-  <!-- CSS file links -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
-  <link href="assets/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
-  <link href="assets/slick-1.6.0/slick.css" rel="stylesheet">
-  <link href="assets/chosen-1.6.2/chosen.min.css" rel="stylesheet">
-  <link href="css/nouislider.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-
-  <?php
+<?php
   include("includes/header.php");
 ?>
 
@@ -68,8 +39,8 @@
         <div class="service-item shadow-hover">
           <i class="fa fa-home"></i>
           <h4>Sell Property</h4>
-          <p>Morbi accumsan ipsum velit Nam nec tellus 
-          a odio tincidunt auctor a ornare odio sedlon 
+          <p>Morbi accumsan ipsum velit Nam nec tellus
+          a odio tincidunt auctor a ornare odio sedlon
           maurisvitae erat consequat auctor</p>
         </div>
       </div>
@@ -77,8 +48,8 @@
         <div class="service-item shadow-hover">
           <i class="fa fa-group"></i>
           <h4>Expert Agents</h4>
-          <p>Morbi accumsan ipsum velit Nam nec tellus 
-          a odio tincidunt auctor a ornare odio sedlon 
+          <p>Morbi accumsan ipsum velit Nam nec tellus
+          a odio tincidunt auctor a ornare odio sedlon
           maurisvitae erat consequat auctor</p>
         </div>
       </div>
@@ -86,8 +57,8 @@
         <div class="service-item shadow-hover">
           <i class="fa fa-file-text"></i>
           <h4>Daily Listings</h4>
-          <p>Morbi accumsan ipsum velit Nam nec tellus 
-          a odio tincidunt auctor a ornare odio sedlon 
+          <p>Morbi accumsan ipsum velit Nam nec tellus
+          a odio tincidunt auctor a ornare odio sedlon
           maurisvitae erat consequat auctor</p>
         </div>
       </div>
@@ -109,33 +80,9 @@
     <span class="slider-prev"><i class="fa fa-angle-left"></i></span>
     <span class="slider-next"><i class="fa fa-angle-right"></i></span>
   </div>
-  
+
   <div class="slider-wrap">
     <div class="slider slider-featured">
-    
-    <div class="property property-hidden-content slide">
-      <a href="#" class="property-content">
-        <div class="property-title">
-          <h4>Modern Family Home</h4>
-          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
-        </div>
-        <table class="property-details">
-          <tr>
-            <td><i class="fa fa-bed"></i> 3 Beds</td>
-            <td><i class="fa fa-tint"></i> 2 Baths</td>
-            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
-          </tr>
-        </table>
-      </a>
-      <a href="#" class="property-img">
-          <div class="img-fade"></div>
-          <div class="property-tag button alt featured">Featured</div>
-          <div class="property-tag button status">For Rent</div>
-          <div class="property-price">$150,000</div>
-          <div class="property-color-bar"></div>
-          <img src="images/1837x1206.png" alt="" />
-      </a>
-    </div>
 
     <div class="property property-hidden-content slide">
       <a href="#" class="property-content">
@@ -208,7 +155,7 @@
           <img src="images/1837x1206.png" alt="" />
       </a>
     </div>
-  
+
     <div class="property property-hidden-content slide">
       <a href="#" class="property-content">
         <div class="property-title">
@@ -232,7 +179,31 @@
           <img src="images/1837x1206.png" alt="" />
       </a>
     </div>
-  
+
+    <div class="property property-hidden-content slide">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/1837x1206.png" alt="" />
+      </a>
+    </div>
+
     </div><!-- end slider -->
   </div><!-- end slider wrap -->
 </section>

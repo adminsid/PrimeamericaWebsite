@@ -40,7 +40,7 @@
         <div class="clear"></div>
       </div>
 
-      <a class="navbar-brand" href="index.html"><img src="images/logo1.png" alt="Prime America Real Estate" /></a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo1.png" alt="Prime America Real Estate" /></a>
 
       <!-- nav toggle -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -57,38 +57,38 @@
         <div class="container-fixed">
 
         <div class="member-actions right">
-          <a href="user-submit-property.html" class="button small alt button-icon"><i class="fa fa-plus"></i>Submit Property</a>
+          <a href="user-submit-property.php" class="button small alt button-icon"><i class="fa fa-plus"></i>Submit Property</a>
         </div>
         <ul class="nav navbar-nav right">
           <li class="menu-item-has-children current-menu-item">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <ul class="sub-menu">
-              <li><a href="index.html">Simple Search</a></li>
+              <li><a href="index.php">Simple Search</a></li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="property-listing-grid.html">Properties</a>
+            <a href="property-listing-grid.php">Properties</a>
             <ul class="sub-menu">
-              <li><a href="property-listing-map.html">Listing Map</a></li>
+              <li><a href="property-listing-map.php">Listing Map</a></li>
               <li class="menu-item-has-children">
-                <a href="property-single.html">Property Single</a>
+                <a href="property-single.php">Property Single</a>
                 <ul class="sub-menu">
-                  <li><a href="property-single.html">Property Single Classic</a></li>
-                  <li><a href="property-single-full.html">Property Single Full Width</a></li>
+                  <li><a href="property-single.php">Property Single Classic</a></li>
+                  <li><a href="property-single-full.php">Property Single Full Width</a></li>
                 </ul>
               </li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="agent-listing-grid.html">Agents</a>
+            <a href="agent-listing-grid.php">Agents</a>
             <ul class="sub-menu">
-              <li><a href="agent-listing-grid-sidebar.html">Agent Listing Grid Sidebar</a></li>
+              <li><a href="agent-listing-grid-sidebar.php">Agent Listing Grid Sidebar</a></li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="blog-right-sidebar.html">Blog</a>
+            <a href="blog-right-sidebar.php">Blog</a>
             <ul class="sub-menu">
-              <li><a href="blog-creative.html">Blog Creative</a></li>
+              <li><a href="blog-creative.php">Blog Creative</a></li>
             </ul>
           </li>
           <li><a href="contact.php">Contact</a></li>
